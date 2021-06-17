@@ -3,9 +3,22 @@ const app = express();
 
 console.log("hello world");
 
+/**
+ *  ROUTES
+ */
+
+// Root
 app.get('/',(req, res) => {
     console.log('user hit root');
     res.status(200).send('root');
+})
+// Spotify Authorization
+app.get('/auth/spotify', (req, res) => {
+
+});
+// Spotify Authorization Callback
+app.get('/auth/spotify/callback', (req, res) => {
+
 })
 // 404 Error
 app.all('*', (req, res) => {
