@@ -1,0 +1,4 @@
+// Middleware
+function getUserArtists() {
+
+}

@@ -14,11 +14,12 @@ app.get('/',(req, res) => {
 })
 // Spotify Authorization
 app.get('/auth/spotify', (req, res) => {
-
+    console.log('User hit /auth/spotify');
+    res.status(200).send('Spotify Auth')
 });
 // Spotify Authorization Callback
 app.get('/auth/spotify/callback', (req, res) => {
-
+    res.status(200).send('Spotify Auth Callback')
 })
 // 404 Error
 app.all('*', (req, res) => {
