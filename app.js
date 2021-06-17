@@ -5,6 +5,7 @@ console.log("hello world");
 
 app.get('/',(req, res) => {
     console.log('user hit root');
+    res.status(200).send('root');
 })
 // 404 Error
 app.all('*', (req, res) => {
