@@ -1,0 +1,19 @@
+{
+  "name": "concerts-api",
+  "version": "1.0.0",
+  "description": "Linking spotify and ticketmaster",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvivarmaas/concerts-api.git"
+  },
+  "author": "Max Vivar-Maas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvivarmaas/concerts-api/issues"
+  },
+  "homepage": "https://github.com/mvivarmaas/concerts-api#readme"
+}
