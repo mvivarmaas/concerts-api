@@ -21,6 +21,11 @@ app.get('/auth/spotify', (req, res) => {
 app.get('/auth/spotify/callback', (req, res) => {
     res.status(200).send('Spotify Auth Callback')
 })
+// Get concerts endpoint
+app.get('/concerts', (req, res) => {
+    console.log('User requests concerts');
+    res.status(403).send('Endpoint currently unavailable');
+})
 // 404 Error
 app.all('*', (req, res) => {
     res.status(404).send('404 Error: Resource not found');
